@@ -1,7 +1,7 @@
 ## Premier contact : modéliser un étudiant
 Vous avez déjà dans le fichier créé :
 ```java
-package etudiant;
+package etudiant; 
 
 public class Etudiant {
 
