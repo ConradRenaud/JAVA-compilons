@@ -4,7 +4,24 @@ import java.util.Scanner;
 
 public class Compil {
 
-  public static void main(String[] args) {
+  public static int feetNumber;
+
+  public Compil() { // le constructor passe ensuite           2-)
+    System.out.println("bloc");
+  }
+
+  static { // le bloc static s'exécute en 1er                 1-)
+    feetNumber = 2;
+    System.out.println("block static");
+  }
+
+  public static void main(String[] args) { // et enfin les éléments du main      3-)
+    Compil feet = new Compil();
+
+    System.out.println(feet.feetNumber); //ceci marche mais reste tjrs souligné , objet.variable (quand la var est static)
+
+    System.out.println(Compil.feetNumber); //  donc ici c'est la bonne méthode, class.variable (quand la var est static)
+
     // int brother = 2;
     // short sister = 1;
     // long population = 11000000L;
