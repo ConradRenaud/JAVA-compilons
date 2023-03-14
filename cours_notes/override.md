@@ -21,7 +21,7 @@ overloading,
 
 overriding,
 
-- fournir l'implémentation spécifiq d'une method qui est deja fourni par la super class
+- fournir l'implémentation spécifique d'une method qui est deja fourni par la super class
 
 - se fait dans 2 class qui ont une relation d'héritage
 
@@ -38,6 +38,6 @@ il s'exécute à chaque fois qu'un objet est créé.
 
 3 règles ==>
 
-1-) bloc init instance est créé quand l'instance est créé,
-2-) ce bloc est invoqué après que le constructor de la super-class (parent) est invoqué,
+1-) bloc init. d'instance est créé quand l'instance est créé,
+2-) ce bloc est invoqué après que le constructor de la super-class (parent) ait été invoqué,
 3-) ce bloc vient dans l'ordre dans lequel il apparaît.

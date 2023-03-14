@@ -5,7 +5,6 @@ public class Personne {
   private String firstName;
   private String lastName;
   private int age;
-
   private String username;
 
   {
@@ -13,8 +12,9 @@ public class Personne {
   }
 
   private Address add;
-
   private String blaz;
+
+  // protected String field;
 
   public String getFirstName() {
     return this.firstName;
@@ -92,8 +92,16 @@ public class Personne {
     // Personne obj = new Personne("Conrad", "Renaud", 50, add);
     // System.out.println(obj.toString()); // pour afficher le résultat, qui marche aussi sans le .toString           2-)
 
-    Personne blaze = new Personne();
-    System.out.println(blaze.blaz);
+    // Personne blaze = new Personne();
+    // System.out.println(blaze.blaz);
     // System.out.println(obj.firstName + " " + obj.lastName + " " + obj.age);
+  }
+
+  public Address getAdd() {
+    return add;
+  }
+
+  public void setAdd(Address add) {
+    this.add = add;
   }
 }

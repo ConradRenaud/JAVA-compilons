@@ -33,7 +33,8 @@ public class Programmeur extends Personne {
 
   public Programmeur() {
     super();
-    System.out.println();
+    System.out.println("C'est moi");
+    // super.getFirstName();
   }
 
   static {
